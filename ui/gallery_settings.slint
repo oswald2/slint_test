@@ -1,0 +1,8 @@
+// Copyright © SixtyFPS GmbH <info@slint-ui.com>
+// SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-Slint-commercial
+
+export global GallerySettings  {
+    in property<bool> widgets-disabled: false;
+
+    pure callback render_plot(length, float, float, float) -> image;
+}
