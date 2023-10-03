@@ -21,6 +21,9 @@ export component ListViewPage inherits Page {
         
             Image {
                 source: GallerySettings.render_plot(root.width, root.pitch, root.yaw, amplitude-slider.value / 10);
+                //preferred-width: 640px;
+                //preferred-height: 480px;
+                
                 touch := TouchArea {
                     property <float> pressed-pitch;
                     property <float> pressed-yaw;
